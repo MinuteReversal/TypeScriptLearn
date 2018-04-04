@@ -8,5 +8,13 @@ var mySymbol;
     console.log(symbol3.toString());
     // expected output: "Symbol(foo)"
     console.log(Symbol('foo') === Symbol('foo'));
+    const getClassNameSymbol = Symbol();
+    class C {
+        [getClassNameSymbol]() {
+            return "C";
+        }
+    }
+    let c = new C();
+    let className = c[getClassNameSymbol]();
 })(mySymbol || (mySymbol = {}));
 //# sourceMappingURL=11.Symbols.js.map
