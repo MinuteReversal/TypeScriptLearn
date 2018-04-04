@@ -1,0 +1,15 @@
+{
+  "name": "learntypescript",
+  "version": "1.0.0",
+  "description": "http://www.typescriptlang.org/\r https://blogs.msdn.microsoft.com/jtarquino/2016/01/24/debugging-typescript-in-visual-studio-code-and-chrome/\r https://code.visualstudio.com/docs/languages/typescript\r https://code.visualstudio.com/docs/languages/typescript#_using-newer-typescript-versions",
+  "main": "index.js",
+  "dependencies": {},
+  "devDependencies": {
+    "typescript": "^2.9.0-dev.20180403"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC"
+}
