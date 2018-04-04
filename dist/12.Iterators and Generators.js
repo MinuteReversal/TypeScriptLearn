@@ -10,10 +10,10 @@ var IteratorsandGenerators;
     }
     let pets = new Set(["Cat", "Dog", "Hamster"]);
     pets["species"] = "mamals";
-    for (let pet in pets) {
+    for (let pet in pets) { // in return key
         console.log(pet);
     }
-    for (let pet of pets) {
+    for (let pet of pets) { //of return value
         console.log(pet);
     }
 })(IteratorsandGenerators || (IteratorsandGenerators = {}));
