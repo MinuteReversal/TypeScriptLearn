@@ -6,5 +6,5 @@ class ZipCodeValidator {
         return s.length === 5 && exports.numberRegexp.test(s);
     }
 }
-exports.ZipCodeValidator = ZipCodeValidator;
+exports.default = ZipCodeValidator;
 //# sourceMappingURL=ZipCodeValidator.js.map
