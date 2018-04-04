@@ -10,4 +10,16 @@ namespace mySymbol {
     // expected output: "Symbol(foo)"
 
     console.log(Symbol('foo') === Symbol('foo'));
+
+
+    const getClassNameSymbol = Symbol();
+
+    class C {
+        [getClassNameSymbol]() {
+            return "C";
+        }
+    }
+
+    let c = new C();
+    let className = c[getClassNameSymbol]();
 }
