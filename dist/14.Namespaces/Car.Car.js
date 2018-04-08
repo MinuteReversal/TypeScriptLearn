@@ -4,12 +4,11 @@ var Garage;
 (function (Garage) {
     class Car {
         constructor(color) {
-            this.color = color;
             this.doors = [new Garage.Door("front"), new Garage.Door("front")];
             this.wheels = [new Garage.Wheel(15), new Garage.Wheel(15), new Garage.Wheel(15), new Garage.Wheel(15)];
         }
         isPlural(count) {
-            return count ? "s" : "";
+            return count ? "" : "s";
         }
         dirve() {
             var me = this;
